@@ -1,0 +1,22 @@
+.header {
+    &__main {
+        height: 80px;
+        display: flex;
+    }
+    &__logo {
+        padding: 34px 48px 0 32px;
+    }
+    &__nav {
+        width: 378px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        padding-top: 34px;
+        font-size: 16px;
+        text-decoration: none;
+        &:hover {
+            color: #415AFF;
+        }
+    }
+}

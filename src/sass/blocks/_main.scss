@@ -1,0 +1,19 @@
+.main {
+    padding-top: 70px;
+    min-height: 440px;
+    &__wrapper {
+        padding: 0 24px 0 113px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-size: 55px;
+        line-height: 68px;
+        letter-spacing: 1.8px;
+    }
+    &__subheader {
+        margin-top: 47px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
