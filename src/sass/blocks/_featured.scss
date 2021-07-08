@@ -1,0 +1,12 @@
+.featured {
+    margin-top: 60px;
+    min-height: 125px;
+    &__items {
+        padding-top: 24px;
+        max-width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,26 @@
+.search {
+    min-height: 841px;
+    padding-top: 100px;
+    &__items {
+        display: flex;
+        margin: 0 auto;
+        max-width: 686px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        padding-top: 13px;
+        height: 720px;
+        width: 294px;
+        img {
+            margin-top: 21px;
+            width: 100%;
+        }
+    }
+    &__descr {
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+    }
+}

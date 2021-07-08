@@ -1,0 +1,11 @@
+.title {
+    padding-left: calc(50% - 342px);
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &_center {
+        padding-left: 0;
+        text-align: center;
+    }
+}

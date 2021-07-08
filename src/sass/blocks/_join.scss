@@ -1,0 +1,11 @@
+.join {
+    margin-top: 120px;
+    min-height: 298px;
+    &__title {
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 72px;
+        text-align: center;
+        letter-spacing: 2.25px; 
+    }
+}

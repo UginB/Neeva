@@ -3,6 +3,9 @@
     display: flex;
     height: 78px;
     width: 508px;
+    &_join {
+        margin: 51px auto 0 auto;
+    }
     input {
         padding-left: 25px;
         height: 100%;
@@ -11,7 +14,7 @@
         border-radius: 100px 0px 0px 100px;
         font-size: 18px;
     }
-    button {
+    &__button {
         cursor: pointer;
         display: flex;
         justify-content: space-between;
@@ -29,5 +32,8 @@
         padding-top: 8px;
         font-size: 13px;
         color: #8D9499;
+        &_join {
+            text-align: center;
+        }
     }
 }
