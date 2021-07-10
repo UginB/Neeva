@@ -1,4 +1,5 @@
 .block {
+    position: relative;
     margin-top: 80px;
     height: 760px;
     &_customize {
@@ -17,23 +18,8 @@
     }
     &__img { 
         height: 100%;
-        &:before {
-            content: '';
-            position: absolute;
-            left: -80%;
-            display: block;
-            height: 99%;
-            width: 100%;
-            background-color: #E4F3DB;
-            z-index: -1;
-        };
-        &_customize {
-            &:before {
-                left: 80%;
-                background-color: #D6EEE6;
-                height: 99.5%;
-            };
-        }
+        
+        
     }
     &__text {
         max-width: 610px;
@@ -87,11 +73,13 @@
         width: 179px;
     }
     &__name {
+        margin-top: 16px;
         font-weight: normal;
         font-size: 22px;
         line-height: 32px;
     }
     &__position {
+        margin-top: 6px;
         font-weight: normal;
         font-size: 20px;
         line-height: 28px;
